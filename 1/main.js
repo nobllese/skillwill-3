@@ -11,10 +11,10 @@ const numbers = (...args) => {
       return total;
     };
     
-    const first = args[0];
-    const second = args[1];
+    const firstNum = args[0];
+    const secondNum = args[1];
     
-    return [calculateSum(first, second), calculateMultiplication(...args)];
+    return [calculateSum(firstNum, secondNum), calculateMultiplication(...args)];
   };
   
   console.log(numbers(1, 2, 3, 4, 5, 6));
