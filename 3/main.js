@@ -23,5 +23,5 @@ const user2 = {
 }
 
 
-console.log(user1);
+console.log(user1)
 console.log(user2)
